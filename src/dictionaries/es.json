@@ -1,5 +1,23 @@
 {
   "common": {
     "siteName": "Tiki-Tiki Studios"
+  },
+  "nav": {
+    "inicio": "Inicio",
+    "nosotros": "Nosotros",
+    "juegos": "Juegos",
+    "contacto": "Contacto"
+  },
+  "header": {
+    "status": "En desarrollo · Vetus Rex — The Origin",
+    "statusTag": "Próximamente"
+  },
+  "footer": {
+    "madeIn": "Hecho en Argentina · EVA"
+  },
+  "language": {
+    "label": "Idioma",
+    "es": "Español",
+    "en": "English"
   }
 }

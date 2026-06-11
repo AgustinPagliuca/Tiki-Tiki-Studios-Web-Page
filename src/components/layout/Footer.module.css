@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 22px 24px;
+  border-top: 1px solid #1a1c14;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 17px;
+}
+
+.social a {
+  color: var(--muted);
+  display: inline-flex;
+  transition: color 150ms var(--ease-out);
+}
+
+.social a:hover {
+  color: var(--green);
+}
+
+.madeIn {
+  margin: 0;
+  font-size: 12px;
+  color: var(--muted);
+}

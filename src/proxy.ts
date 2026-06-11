@@ -15,13 +15,17 @@ function resolveLocale(request: NextRequest): string {
   return defaultLocale;
 }
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  const hasLocale = locales.some(
+  const current = locales.find(
     (locale) => pathname === `/${locale}` || pathname.startsWith(`/${locale}/`),
   );
-  if (hasLocale) return NextResponse.next();
+  if (current) {
+    const requestHeaders = new Headers(request.headers);
+    requestHeaders.set("x-locale", current);
+    return NextResponse.next({ request: { headers: requestHeaders } });
+  }
 
   const locale = resolveLocale(request);
   const url = request.nextUrl.clone();
@@ -30,5 +34,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!api|_next/static|_next/image|favicon.ico|.*\\..*).*)"],
+  matcher: ["/", "/((?!api|_next/static|_next/image|favicon.ico|.*\\..*).*)"],
 };

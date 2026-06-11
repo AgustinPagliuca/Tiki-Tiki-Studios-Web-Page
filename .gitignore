@@ -40,3 +40,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# skills / tooling instalado (re-instalable con npx, no es parte del sitio)
+/.claude/
+/.agents/
+/skills-lock.json
