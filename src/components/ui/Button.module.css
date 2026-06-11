@@ -1,0 +1,57 @@
+.btn {
+  position: relative;
+  z-index: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 22px;
+  border: 0;
+  background: transparent;
+  color: var(--green-ink);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 120ms var(--ease-out), filter 150ms var(--ease-out);
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  transform: skewX(-12deg);
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.primary::before {
+  background: var(--green);
+  box-shadow: 0 0 22px rgba(126, 217, 87, 0.3);
+}
+
+.ghost {
+  color: var(--foreground);
+}
+
+.ghost::before {
+  background: transparent;
+  border: 1.5px solid #4a5142;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .primary:hover {
+    filter: brightness(1.06);
+  }
+  .ghost:hover::before {
+    border-color: var(--green);
+  }
+  .ghost:hover {
+    color: var(--green);
+  }
+}

@@ -12,6 +12,23 @@
     "status": "In development · Vetus Rex — The Origin",
     "statusTag": "Coming soon"
   },
+  "home": {
+    "kicker": "Indie studio · Argentina",
+    "titleLead": "We craft",
+    "titleHighlight": "worlds",
+    "titleTail": "to get lost in",
+    "subtitle": "RPG, adventure and open worlds with their own identity. Handcrafted, with the soul of older games and today's technology.",
+    "ctaGames": "See games",
+    "ctaStudio": "The studio",
+    "featured": {
+      "tag": "Featured game",
+      "title": "Vetus Rex — The Origin",
+      "description": "Open-world RPG · dark fantasy. It has its own site: we introduce it and take you there.",
+      "ctaSite": "vetusrex.online",
+      "ctaItch": "itch.io",
+      "artLabel": "Key art · Vetus Rex"
+    }
+  },
   "footer": {
     "madeIn": "Made in Argentina · EVA"
   },

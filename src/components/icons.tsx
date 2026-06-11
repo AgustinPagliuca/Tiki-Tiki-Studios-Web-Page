@@ -74,6 +74,55 @@ export function ChevronDownIcon(props: IconProps) {
   );
 }
 
+export function SwordIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path
+        d="M14.5 3.5L20 3v.5l-.5 5.5-9 9M21 14l-3 3M6.5 12.5L3 9V6l3 3M4 20l3-3"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M14.5 3.5l-8 8 6 6 8-8M4.5 16.5l3 3"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+export function ArrowUpRightIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path
+        d="M7 17L17 7M9 7h8v8"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+export function ArrowRightIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path
+        d="M5 12h14M13 6l6 6-6 6"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
 export function GamepadIcon(props: IconProps) {
   return (
     <svg {...base} {...props}>
