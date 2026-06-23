@@ -12,6 +12,7 @@ export const EXTERNAL_LINKS = {
 
 export const STUDIO = {
   email: "hola@tiki-tiki.studio", // TODO: email real del estudio
+  instagramHandle: "@tikitikistudios", // TODO: handle real
 } as const;
 
 // Estructura de navegación. `segment` vacío = home.

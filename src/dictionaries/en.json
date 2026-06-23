@@ -68,6 +68,27 @@
     },
     "upcoming": ["New title on the way", "Room for more"]
   },
+  "contact": {
+    "kicker": "Let's talk",
+    "title": "Contact",
+    "lead": "Want to write to us, join in or try something? Send us a message.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "secure": "Sent securely via Formspree.",
+      "success": "Thanks! We'll get back to you soon.",
+      "error": "Something went wrong. Try again or email us.",
+      "notConfigured": "The form isn't set up yet. Email us in the meantime."
+    },
+    "other": {
+      "title": "Other ways",
+      "discord": "Discord community",
+      "eva": "Find us at EVA Argentina"
+    }
+  },
   "footer": {
     "madeIn": "Made in Argentina · EVA"
   },

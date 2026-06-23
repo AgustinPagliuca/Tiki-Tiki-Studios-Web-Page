@@ -68,6 +68,27 @@
     },
     "upcoming": ["Nuevo título en camino", "Espacio para más"]
   },
+  "contact": {
+    "kicker": "Hablemos",
+    "title": "Contacto",
+    "lead": "¿Querés escribirnos, sumarte o probar algo? Mandanos un mensaje.",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "message": "Mensaje",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando…",
+      "secure": "Enviado de forma segura vía Formspree.",
+      "success": "¡Gracias! Te vamos a responder pronto.",
+      "error": "Algo salió mal. Probá de nuevo o escribinos por mail.",
+      "notConfigured": "El formulario todavía no está configurado. Escribinos por mail mientras tanto."
+    },
+    "other": {
+      "title": "Otras vías",
+      "discord": "Comunidad en Discord",
+      "eva": "Nos ves en la EVA Argentina"
+    }
+  },
   "footer": {
     "madeIn": "Hecho en Argentina · EVA"
   },
