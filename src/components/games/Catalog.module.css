@@ -1,0 +1,120 @@
+.section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 24px 56px;
+}
+
+.featured {
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(100deg, #11140d, #0c0d0a);
+  border: 1px solid var(--line);
+  clip-path: polygon(
+    0 0,
+    calc(100% - 22px) 0,
+    100% 22px,
+    100% 100%,
+    22px 100%,
+    0 calc(100% - 22px)
+  );
+  overflow: hidden;
+}
+
+.cover {
+  flex: 1;
+  min-width: 200px;
+  min-height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(120% 100% at 50% 30%, rgba(126, 217, 87, 0.3), transparent 60%),
+    #101208;
+}
+
+.coverIcon {
+  font-size: 56px;
+  color: var(--green);
+  filter: drop-shadow(0 0 16px rgba(126, 217, 87, 0.55));
+}
+
+.body {
+  flex: 2;
+  min-width: 260px;
+  padding: 26px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 6px 12px;
+  background: rgba(126, 217, 87, 0.16);
+  color: var(--green);
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 14px 0 8px;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(1.4rem, 3vw, 1.7rem);
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.description {
+  max-width: 52ch;
+  margin: 0 0 18px;
+  font-size: 15px;
+  line-height: 1.55;
+  color: #d8ddd1;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.upcoming {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+  margin-top: 22px;
+}
+
+.placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 120px;
+  padding: 26px;
+  border: 1px dashed #3a3f2d;
+  clip-path: polygon(
+    0 0,
+    calc(100% - 14px) 0,
+    100% 14px,
+    100% 100%,
+    14px 100%,
+    0 calc(100% - 14px)
+  );
+}
+
+.placeholderIcon {
+  font-size: 24px;
+  color: #4a5142;
+}
+
+.placeholderLabel {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}

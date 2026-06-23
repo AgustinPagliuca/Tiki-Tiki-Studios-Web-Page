@@ -56,6 +56,18 @@
       "growingRole": "Crecemos de a poco"
     }
   },
+  "games": {
+    "kicker": "Nuestro catálogo",
+    "title": "Juegos",
+    "featured": {
+      "tag": "Próximamente",
+      "title": "Vetus Rex — The Origin",
+      "description": "RPG de mundo abierto · dark fantasy. Tiene su propio sitio: lo presentamos y te llevamos ahí.",
+      "ctaSite": "vetusrex.online",
+      "ctaItch": "itch.io"
+    },
+    "upcoming": ["Nuevo título en camino", "Espacio para más"]
+  },
   "footer": {
     "madeIn": "Hecho en Argentina · EVA"
   },
