@@ -74,6 +74,49 @@ export function ChevronDownIcon(props: IconProps) {
   );
 }
 
+export function BookIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path
+        d="M5 4h9a3 3 0 013 3v13a2.5 2.5 0 00-2.5-2.5H5z"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinejoin="round"
+      />
+      <path d="M5 4v13.5" stroke="currentColor" strokeWidth="1.6" />
+      <path d="M9 8h5M9 11h5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+export function MapIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path
+        d="M9 4L3.5 6v14L9 18l6 2 5.5-2V4L15 6 9 4z"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinejoin="round"
+      />
+      <path d="M9 4v14M15 6v14" stroke="currentColor" strokeWidth="1.6" />
+    </svg>
+  );
+}
+
+export function BrushIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path
+        d="M14 4l6 6-7 7M4 20c0-3 1.5-5 4-5s3 2 3 3.5S13 22 10 22c-2 0-3-1-3-2z"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
 export function SwordIcon(props: IconProps) {
   return (
     <svg {...base} {...props}>

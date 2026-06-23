@@ -1,0 +1,59 @@
+.section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 24px 56px;
+}
+
+.heading {
+  margin: 0 0 18px;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.member {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  flex: none;
+  background: rgba(126, 217, 87, 0.18);
+  border: 1px solid var(--line);
+  font-family: var(--font-display);
+  font-weight: 800;
+  color: var(--green);
+}
+
+.placeholder {
+  background: #101208;
+  border: 1px dashed #3a3f2d;
+  font-size: 20px;
+}
+
+.name {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.role {
+  margin: 0;
+  font-size: 13px;
+  color: var(--muted);
+}

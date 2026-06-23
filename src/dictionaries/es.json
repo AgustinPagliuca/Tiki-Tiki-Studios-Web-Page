@@ -29,6 +29,33 @@
       "artLabel": "Key art · Vetus Rex"
     }
   },
+  "about": {
+    "kicker": "El estudio",
+    "title": "Quiénes somos",
+    "lead": "Tiki-Tiki Studios nació de la idea de hacer los juegos que queríamos jugar: mundos abiertos con alma, historias que pesan y un estilo propio. Nos presentamos en la EVA Argentina para mostrar en qué andamos.",
+    "valuesTitle": "Lo que nos mueve",
+    "values": [
+      {
+        "title": "Narrativa con peso",
+        "text": "Historias que te importan, no relleno entre misiones."
+      },
+      {
+        "title": "Mundos abiertos",
+        "text": "Lugares para explorar a tu ritmo, llenos de secretos."
+      },
+      {
+        "title": "Hecho a mano",
+        "text": "Identidad artesanal, del logo al último ícono."
+      }
+    ],
+    "teamTitle": "El equipo",
+    "team": {
+      "founderTitle": "Equipo fundador",
+      "founderRole": "Diseño · Código · Arte",
+      "growingTitle": "Sumando gente",
+      "growingRole": "Crecemos de a poco"
+    }
+  },
   "footer": {
     "madeIn": "Hecho en Argentina · EVA"
   },
