@@ -6,7 +6,6 @@ export const EXTERNAL_LINKS = {
   vetusRexSite: "https://vetusrex.online",
   vetusRexItch: "https://itch.io", // TODO: URL real del juego en itch.io
   instagram: "https://instagram.com", // TODO: handle real
-  x: "https://x.com", // TODO: handle real
   discord: "https://discord.com", // TODO: invite real
 } as const;
 
