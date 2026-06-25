@@ -44,8 +44,10 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
       </div>
       <div className={styles.nav}>
         <Logo />
-        <NavLinks items={items} />
-        <LanguageSwitcher locale={locale} />
+        <div className={styles.navRight}>
+          <NavLinks items={items} />
+          <LanguageSwitcher locale={locale} />
+        </div>
       </div>
     </header>
   );
