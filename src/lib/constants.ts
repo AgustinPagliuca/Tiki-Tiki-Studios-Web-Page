@@ -6,13 +6,16 @@ export const EXTERNAL_LINKS = {
   vetusRexSite: "https://vetusrex.online",
   vetusRexItch: "https://itch.io", // TODO: URL real del juego en itch.io
   instagram: "https://instagram.com", // TODO: handle real
-  x: "https://x.com", // TODO: handle real
   discord: "https://discord.com", // TODO: invite real
 } as const;
 
 export const STUDIO = {
   email: "hola@tiki-tiki.studio", // TODO: email real del estudio
   instagramHandle: "@tikitikistudios", // TODO: handle real
+} as const;
+
+export const ASSETS = {
+  vetusRexCover: "/vetus-rex/vetus-rex-cover.png",
 } as const;
 
 // Estructura de navegación. `segment` vacío = home.

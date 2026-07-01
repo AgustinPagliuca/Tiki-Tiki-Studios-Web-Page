@@ -1,37 +1,20 @@
 .logo {
-  position: relative;
-  display: inline-block;
-  line-height: 0.8;
-  padding: 4px 0;
-}
-
-.top {
   display: block;
-  font-family: var(--font-display);
-  font-weight: 800;
-  font-size: 19px;
-  letter-spacing: 0.06em;
-  color: #fff;
+  width: auto;
+  height: auto;
 }
 
-.script {
-  display: block;
-  margin-top: -6px;
-  margin-left: 34px;
-  font-family: var(--font-script);
-  font-weight: 700;
-  font-size: 30px;
-  color: var(--green);
-  transform: rotate(-4deg);
-  text-shadow: 0 0 14px rgba(126, 217, 87, 0.45);
+.link {
+  display: inline-flex;
+  align-items: center;
+  transition: opacity 150ms var(--ease-out);
 }
 
-.sm .top {
-  font-size: 15px;
+.link:hover {
+  opacity: 0.85;
 }
 
-.sm .script {
-  font-size: 24px;
-  margin-left: 26px;
-  margin-top: -5px;
+.link:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 3px;
 }

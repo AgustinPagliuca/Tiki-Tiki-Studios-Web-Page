@@ -14,46 +14,77 @@
 }
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 18px;
 }
 
 .member {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 11px;
+  text-align: center;
+  gap: 4px;
+  padding: 28px 20px;
+  border-radius: 14px;
 }
 
 .avatar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 42px;
-  height: 42px;
+  display: block;
+  width: 76px;
+  height: 76px;
   flex: none;
+  object-fit: cover;
+  border-radius: 50%;
   background: rgba(126, 217, 87, 0.18);
-  border: 1px solid var(--line);
-  font-family: var(--font-display);
-  font-weight: 800;
-  color: var(--green);
-}
-
-.placeholder {
-  background: #101208;
-  border: 1px dashed #3a3f2d;
-  font-size: 20px;
+  border: 2px solid var(--green);
+  margin-bottom: 10px;
 }
 
 .name {
   margin: 0;
-  font-size: 14px;
-  font-weight: 600;
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
   color: #fff;
 }
 
 .role {
-  margin: 0;
+  margin: 4px 0 0;
   font-size: 13px;
   color: var(--muted);
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 12px;
+  font-size: 18px;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 200ms var(--ease-out), transform 200ms var(--ease-out);
+}
+
+.member:hover .social,
+.member:focus-within .social {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.social a {
+  display: inline-flex;
+  color: var(--muted);
+  transition: color 150ms var(--ease-out);
+}
+
+.social a:hover {
+  color: var(--green);
+}
+
+@media (max-width: 768px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
 }

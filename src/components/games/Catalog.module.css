@@ -9,6 +9,7 @@
   flex-wrap: wrap;
   background: linear-gradient(100deg, #11140d, #0c0d0a);
   border: 1px solid var(--line);
+  /*
   clip-path: polygon(
     0 0,
     calc(100% - 22px) 0,
@@ -17,6 +18,7 @@
     22px 100%,
     0 calc(100% - 22px)
   );
+  */
   overflow: hidden;
 }
 
@@ -24,13 +26,24 @@
   position: relative;
   flex: 1;
   min-width: 200px;
-  min-height: 200px;
+  min-height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
-  background: #101208;
+  background:
+    radial-gradient(120% 100% at 50% 30%, rgba(126, 217, 87, 0.3), transparent 60%),
+    #101208;
 }
 
-.coverImg {
+.artImg {
   object-fit: cover;
+}
+
+.coverIcon {
+  font-size: 56px;
+  color: var(--green);
+  filter: drop-shadow(0 0 16px rgba(126, 217, 87, 0.55));
 }
 
 .body {

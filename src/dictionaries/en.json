@@ -23,7 +23,7 @@
     "featured": {
       "tag": "Featured game",
       "title": "Vetus Rex — The Origin",
-      "description": "Open-world RPG · dark fantasy. It has its own site: we introduce it and take you there.",
+      "description": "Step into a vast, unexplored world and uncover the secrets hidden within the enigmatic lands of the Old King. Rise as the hero who will shape the fate of the world as we know it. Are you ready?",
       "ctaSite": "vetusrex.online",
       "ctaItch": "itch.io",
       "artLabel": "Key art · Vetus Rex"
@@ -50,10 +50,38 @@
     ],
     "teamTitle": "The team",
     "team": {
-      "founderTitle": "Founding team",
-      "founderRole": "Design · Code · Art",
-      "growingTitle": "Growing",
-      "growingRole": "Adding people, step by step"
+      "members": [
+        {
+          "name": "Siro Pregno",
+          "role": "3D Technical Artist",
+          "avatar": "/team/siro-pregno.jpg",
+          "social": { "linkedin": "#", "instagram": "#" }
+        },
+        {
+          "name": "Agustín Pagliuca",
+          "role": "Web Development",
+          "avatar": "/team/agustin-pagliuca.png",
+          "social": { "linkedin": "#", "instagram": "#" }
+        },
+        {
+          "name": "Nahuel Bergamo",
+          "role": "Backend Programmer · Server",
+          "avatar": "/team/nahuel-bergamo.png",
+          "social": { "linkedin": "#", "instagram": "#" }
+        },
+        {
+          "name": "Esteban La Roza",
+          "role": "Animation · Concept/3D Artist",
+          "avatar": "/team/esteban-la-roza.png",
+          "social": { "linkedin": "#", "instagram": "#" }
+        },
+        {
+          "name": "Simón Pardo",
+          "role": "3D Technical Artist",
+          "avatar": "/team/simon-pardo.png",
+          "social": { "linkedin": "#", "instagram": "#" }
+        }
+      ]
     }
   },
   "games": {
@@ -62,7 +90,7 @@
     "featured": {
       "tag": "Coming soon",
       "title": "Vetus Rex — The Origin",
-      "description": "Open-world RPG · dark fantasy. It has its own site: we introduce it and take you there.",
+      "description": "Step into a vast, unexplored world and uncover the secrets hidden within the enigmatic lands of the Old King. Rise as the hero who will shape the fate of the world as we know it. Are you ready?",
       "ctaSite": "vetusrex.online",
       "ctaItch": "itch.io"
     },

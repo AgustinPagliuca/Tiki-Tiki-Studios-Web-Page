@@ -1,7 +1,7 @@
 import { Logo } from "./Logo";
 import { NavLinks, type NavLink } from "./NavLinks";
 import { LanguageSwitcher } from "./LanguageSwitcher";
-import { InstagramIcon, XIcon, DiscordIcon, MailIcon } from "@/components/icons";
+import { InstagramIcon, DiscordIcon, MailIcon } from "@/components/icons";
 import { EXTERNAL_LINKS, NAV_ITEMS, STUDIO } from "@/lib/constants";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/dictionaries";
@@ -30,9 +30,6 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
           <a href={EXTERNAL_LINKS.instagram} aria-label="Instagram" target="_blank" rel="noreferrer">
             <InstagramIcon />
           </a>
-          <a href={EXTERNAL_LINKS.x} aria-label="X" target="_blank" rel="noreferrer">
-            <XIcon />
-          </a>
           <a href={EXTERNAL_LINKS.discord} aria-label="Discord" target="_blank" rel="noreferrer">
             <DiscordIcon />
           </a>
@@ -43,9 +40,11 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
         </div>
       </div>
       <div className={styles.nav}>
-        <Logo />
-        <NavLinks items={items} />
-        <LanguageSwitcher locale={locale} />
+        <Logo href={`/${locale}`} />
+        <div className={styles.navRight}>
+          <NavLinks items={items} />
+          <LanguageSwitcher locale={locale} />
+        </div>
       </div>
     </header>
   );

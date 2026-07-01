@@ -7,6 +7,9 @@ import { ArrowUpRightIcon, PlusIcon } from "@/components/icons";
 import { EXTERNAL_LINKS } from "@/lib/constants";
 import type { Dictionary } from "@/i18n/dictionaries";
 import styles from "./Catalog.module.css";
+import Image from "next/image";
+
+
 
 export function Catalog({ games }: { games: Dictionary["games"] }) {
   const reduce = useReducedMotion();
@@ -37,14 +40,15 @@ export function Catalog({ games }: { games: Dictionary["games"] }) {
         whileInView="show"
         viewport={{ once: true, margin: "-80px" }}
       >
-        <div className={styles.cover}>
+        <div className={styles.cover} aria-hidden="true">
           <Image
-            src="/vetus-rex-cover.png"
-            alt={games.featured.title}
+            src="/vetus-rex/vetus-rex-cover.png"
+            alt=""
             fill
-            sizes="(max-width: 768px) 100vw, 400px"
-            className={styles.coverImg}
-          />
+            sizes="(max-width: 768px) 100vw, 600px"
+            className={styles.artImg}
+            priority
+            />
         </div>
         <div className={styles.body}>
           <span className={styles.tag}>★ {games.featured.tag}</span>
@@ -61,21 +65,6 @@ export function Catalog({ games }: { games: Dictionary["games"] }) {
           </div>
         </div>
       </motion.article>
-
-      <motion.div
-        className={styles.upcoming}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: true, margin: "-60px" }}
-        transition={{ staggerChildren: 0.08 }}
-      >
-        {games.upcoming.map((label) => (
-          <motion.div key={label} className={styles.placeholder} variants={item}>
-            <PlusIcon className={styles.placeholderIcon} />
-            <span className={styles.placeholderLabel}>{label}</span>
-          </motion.div>
-        ))}
-      </motion.div>
     </section>
   );
 }

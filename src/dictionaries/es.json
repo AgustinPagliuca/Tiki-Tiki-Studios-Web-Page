@@ -23,7 +23,7 @@
     "featured": {
       "tag": "Juego destacado",
       "title": "Vetus Rex — The Origin",
-      "description": "RPG de mundo abierto · dark fantasy. Tiene su propio sitio: lo presentamos y te llevamos ahí.",
+      "description": "Adéntrate en un vasto mundo inexplorado y descubre los secretos ocultos en las enigmáticas tierras del Viejo Rey. Álzate como el héroe que decidirá el destino del mundo tal como lo conocemos. ¿Estás listo?",
       "ctaSite": "vetusrex.online",
       "ctaItch": "itch.io",
       "artLabel": "Key art · Vetus Rex"
@@ -50,10 +50,38 @@
     ],
     "teamTitle": "El equipo",
     "team": {
-      "founderTitle": "Equipo fundador",
-      "founderRole": "Diseño · Código · Arte",
-      "growingTitle": "Sumando gente",
-      "growingRole": "Crecemos de a poco"
+      "members": [
+        {
+          "name": "Siro Pregno",
+          "role": "Artista Técnico 3D",
+          "avatar": "/team/siro-pregno.jpg",
+          "social": { "linkedin": "#", "instagram": "#" }
+        },
+        {
+          "name": "Agustín Pagliuca",
+          "role": "Desarrollo Web",
+          "avatar": "/team/agustin-pagliuca.png",
+          "social": { "linkedin": "#", "instagram": "#" }
+        },
+        {
+          "name": "Nahuel Bergamo",
+          "role": "Programador Backend · Servidor",
+          "avatar": "/team/nahuel-bergamo.png",
+          "social": { "linkedin": "#", "instagram": "#" }
+        },
+        {
+          "name": "Esteban La Roza",
+          "role": "Animaciones · Artista conceptual/3D",
+          "avatar": "/team/esteban-la-roza.png",
+          "social": { "linkedin": "#", "instagram": "#" }
+        },
+        {
+          "name": "Simón Pardo",
+          "role": "Artista Técnico 3D",
+          "avatar": "/team/simon-pardo.png",
+          "social": { "linkedin": "#", "instagram": "#" }
+        }
+      ]
     }
   },
   "games": {
@@ -62,7 +90,7 @@
     "featured": {
       "tag": "Próximamente",
       "title": "Vetus Rex — The Origin",
-      "description": "RPG de mundo abierto · dark fantasy. Tiene su propio sitio: lo presentamos y te llevamos ahí.",
+      "description": "Adéntrate en un vasto mundo inexplorado y descubre los secretos ocultos en las enigmáticas tierras del Viejo Rey. Álzate como el héroe que decidirá el destino del mundo tal como lo conocemos. ¿Estás listo?",
       "ctaSite": "vetusrex.online",
       "ctaItch": "itch.io"
     },

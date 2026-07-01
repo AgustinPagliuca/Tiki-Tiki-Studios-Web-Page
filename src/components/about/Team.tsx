@@ -1,4 +1,5 @@
 import type { Dictionary } from "@/i18n/dictionaries";
+import { LinkedInIcon, InstagramIcon } from "@/components/icons";
 import styles from "./Team.module.css";
 
 export function Team({
@@ -12,20 +13,23 @@ export function Team({
     <section className={styles.section}>
       <h2 className={styles.heading}>{title}</h2>
       <div className={styles.row}>
-        <div className={styles.member}>
-          <span className={styles.avatar}>AP</span>
-          <div>
-            <p className={styles.name}>{team.founderTitle}</p>
-            <p className={styles.role}>{team.founderRole}</p>
+        {team.members.map((member) => (
+          <div className={styles.member} key={member.name}>
+            <img src={member.avatar} alt="" className={styles.avatar} />
+            <div>
+              <p className={styles.name}>{member.name}</p>
+              <p className={styles.role}>{member.role}</p>
+            </div>
+            <div className={styles.social}>
+              <a href={member.social.linkedin} aria-label="LinkedIn" target="_blank" rel="noreferrer">
+                <LinkedInIcon />
+              </a>
+              <a href={member.social.instagram} aria-label="Instagram" target="_blank" rel="noreferrer">
+                <InstagramIcon />
+              </a>
+            </div>
           </div>
-        </div>
-        <div className={styles.member}>
-          <span className={`${styles.avatar} ${styles.placeholder}`}>+</span>
-          <div>
-            <p className={styles.name}>{team.growingTitle}</p>
-            <p className={styles.role}>{team.growingRole}</p>
-          </div>
-        </div>
+        ))}
       </div>
     </section>
   );
