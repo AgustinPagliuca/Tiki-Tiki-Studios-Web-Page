@@ -14,6 +14,10 @@ export const STUDIO = {
   instagramHandle: "@tikitikistudios", // TODO: handle real
 } as const;
 
+export const ASSETS = {
+  vetusRexCover: "/vetus-rex/vetus-rex-cover.png",
+} as const;
+
 // Estructura de navegación. `segment` vacío = home.
 // Los segmentos se mantienen iguales en todos los idiomas (la etiqueta
 // visible cambia vía diccionario); solo el prefijo /es | /en varía.
