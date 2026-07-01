@@ -58,12 +58,6 @@
           "social": { "linkedin": "#", "instagram": "#" }
         },
         {
-          "name": "Agustín Pagliuca",
-          "role": "Wachin de la programación · Programador Fullstack",
-          "avatar": "/team/agustin-pagliuca.jpeg",
-          "social": { "linkedin": "https://www.linkedin.com/in/agustin-pagliuca-6836b7237/", "instagram": "https://www.instagram.com/agustin.pagliuca/" }
-        },
-        {
           "name": "Nahuel Bergamo",
           "role": "Programador Backend · Servidor",
           "avatar": "/team/nahuel-bergamo.png",
@@ -80,6 +74,12 @@
           "role": "Artista Técnico 3D",
           "avatar": "/team/simon-pardo.png",
           "social": { "linkedin": "#", "instagram": "#" }
+        },
+        {
+          "name": "Agustín Pagliuca",
+          "role": "Wachin de la programación · Programador Fullstack",
+          "avatar": "/team/agustin-pagliuca.jpeg",
+          "social": { "linkedin": "https://www.linkedin.com/in/agustin-pagliuca-6836b7237/", "instagram": "https://www.instagram.com/agustin.pagliuca/" }
         }
       ]
     }

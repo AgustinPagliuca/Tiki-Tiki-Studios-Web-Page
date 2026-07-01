@@ -80,6 +80,12 @@
           "role": "3D Technical Artist",
           "avatar": "/team/simon-pardo.png",
           "social": { "linkedin": "#", "instagram": "#" }
+        },
+        {
+          "name": "Agustín Pagliuca",
+          "role": "Web Development",
+          "avatar": "/team/agustin-pagliuca.png",
+          "social": { "linkedin": "#", "instagram": "#" }
         }
       ]
     }
