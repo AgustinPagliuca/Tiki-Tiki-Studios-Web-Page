@@ -57,18 +57,12 @@
 }
 
 .art {
+  position: relative;
   flex: 1;
   min-width: 260px;
   height: 320px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 14px;
-  background:
-    radial-gradient(120% 90% at 65% 25%, rgba(126, 217, 87, 0.32), transparent 60%),
-    radial-gradient(90% 90% at 30% 95%, rgba(126, 217, 87, 0.16), transparent 55%),
-    #101208;
+  overflow: hidden;
+  background: #101208;
   border: 1px solid var(--line);
   clip-path: polygon(
     0 0,
@@ -80,17 +74,6 @@
   );
 }
 
-.artIcon {
-  font-size: 64px;
-  color: var(--green);
-  filter: drop-shadow(0 0 16px rgba(126, 217, 87, 0.55));
-}
-
-.artLabel {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 11px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--muted);
+.artImg {
+  object-fit: cover;
 }

@@ -1,8 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import { motion, useReducedMotion, type Variants } from "motion/react";
 import { Button } from "@/components/ui/Button";
-import { SwordIcon, ArrowUpRightIcon, PlusIcon } from "@/components/icons";
+import { ArrowUpRightIcon, PlusIcon } from "@/components/icons";
 import { EXTERNAL_LINKS } from "@/lib/constants";
 import type { Dictionary } from "@/i18n/dictionaries";
 import styles from "./Catalog.module.css";
@@ -36,8 +37,14 @@ export function Catalog({ games }: { games: Dictionary["games"] }) {
         whileInView="show"
         viewport={{ once: true, margin: "-80px" }}
       >
-        <div className={styles.cover} aria-hidden="true">
-          <SwordIcon className={styles.coverIcon} />
+        <div className={styles.cover}>
+          <Image
+            src="/vetus-rex-cover.png"
+            alt={games.featured.title}
+            fill
+            sizes="(max-width: 768px) 100vw, 400px"
+            className={styles.coverImg}
+          />
         </div>
         <div className={styles.body}>
           <span className={styles.tag}>★ {games.featured.tag}</span>

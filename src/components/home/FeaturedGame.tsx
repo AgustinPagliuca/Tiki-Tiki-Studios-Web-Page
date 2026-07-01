@@ -1,8 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import { motion, useReducedMotion } from "motion/react";
 import { Button } from "@/components/ui/Button";
-import { SwordIcon, ArrowUpRightIcon } from "@/components/icons";
+import { ArrowUpRightIcon } from "@/components/icons";
 import { EXTERNAL_LINKS } from "@/lib/constants";
 import type { Dictionary } from "@/i18n/dictionaries";
 import styles from "./FeaturedGame.module.css";
@@ -37,8 +38,14 @@ export function FeaturedGame({
             </Button>
           </div>
         </div>
-        <div className={styles.thumb} aria-hidden="true">
-          <SwordIcon className={styles.thumbIcon} />
+        <div className={styles.thumb}>
+          <Image
+            src="/vetus-rex-cover.png"
+            alt={content.title}
+            fill
+            sizes="120px"
+            className={styles.thumbImg}
+          />
         </div>
       </motion.div>
     </section>

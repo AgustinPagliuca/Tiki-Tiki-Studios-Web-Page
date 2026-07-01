@@ -63,13 +63,12 @@
 }
 
 .thumb {
+  position: relative;
   flex: none;
   width: 120px;
   height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: radial-gradient(circle, #16210d, #0c0d0a);
+  overflow: hidden;
+  background: #101208;
   border: 1.5px solid var(--line);
   clip-path: polygon(
     0 0,
@@ -81,8 +80,6 @@
   );
 }
 
-.thumbIcon {
-  font-size: 48px;
-  color: var(--green);
-  filter: drop-shadow(0 0 12px rgba(126, 217, 87, 0.5));
+.thumbImg {
+  object-fit: cover;
 }

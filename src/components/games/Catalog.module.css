@@ -21,21 +21,16 @@
 }
 
 .cover {
+  position: relative;
   flex: 1;
   min-width: 200px;
-  min-height: 180px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background:
-    radial-gradient(120% 100% at 50% 30%, rgba(126, 217, 87, 0.3), transparent 60%),
-    #101208;
+  min-height: 200px;
+  overflow: hidden;
+  background: #101208;
 }
 
-.coverIcon {
-  font-size: 56px;
-  color: var(--green);
-  filter: drop-shadow(0 0 16px rgba(126, 217, 87, 0.55));
+.coverImg {
+  object-fit: cover;
 }
 
 .body {
