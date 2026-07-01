@@ -7,7 +7,6 @@ import { ArrowUpRightIcon, PlusIcon } from "@/components/icons";
 import { EXTERNAL_LINKS } from "@/lib/constants";
 import type { Dictionary } from "@/i18n/dictionaries";
 import styles from "./Catalog.module.css";
-import Image from "next/image";
 
 
 
