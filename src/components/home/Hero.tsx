@@ -67,7 +67,7 @@ export function Hero({
         transition={{ duration: 0.6, ease: [0.23, 1, 0.32, 1], delay: 0.15 }}
       >
         <Image
-          src="/vetus-rex-cover.png"
+          src="/vetus-rex/vetus-rex-cover.png"
           alt={content.featured.title}
           fill
           sizes="(max-width: 768px) 100vw, 600px"

@@ -40,7 +40,7 @@ export function FeaturedGame({
         </div>
         <div className={styles.thumb}>
           <Image
-            src="/vetus-rex-cover.png"
+            src="/vetus-rex/vetus-rex-cover.png"
             alt={content.title}
             fill
             sizes="120px"
