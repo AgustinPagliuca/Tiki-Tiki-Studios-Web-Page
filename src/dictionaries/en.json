@@ -58,12 +58,6 @@
           "social": { "linkedin": "#", "instagram": "#" }
         },
         {
-          "name": "Agustín Pagliuca",
-          "role": "Wachin de la programación · Programador Fullstack",
-          "avatar": "/team/agustin-pagliuca.jpeg",
-          "social": { "linkedin": "https://www.linkedin.com/in/agustin-pagliuca-6836b7237/", "instagram": "https://www.instagram.com/agustin.pagliuca/" }
-        },
-        {
           "name": "Nahuel Bergamo",
           "role": "Backend Programmer · Server",
           "avatar": "/team/nahuel-bergamo.png",
@@ -85,6 +79,12 @@
           "name": "Agustín Pagliuca",
           "role": "Web Development",
           "avatar": "/team/agustin-pagliuca.png",
+          "social": { "linkedin": "#", "instagram": "#" }
+        },
+        {
+          "name": "Matias Ignacio Cid Montes",
+          "role": "QA Tester",
+          "avatar": "/team/matias-cid.png",
           "social": { "linkedin": "#", "instagram": "#" }
         }
       ]
