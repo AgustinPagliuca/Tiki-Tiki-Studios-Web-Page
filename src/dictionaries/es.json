@@ -76,16 +76,16 @@
           "social": { "linkedin": "#", "instagram": "#" }
         },
         {
-          "name": "Agustín Pagliuca",
-          "role": "Wachin de la programación · Programador Fullstack",
-          "avatar": "/team/agustin-pagliuca.jpeg",
-          "social": { "linkedin": "https://www.linkedin.com/in/agustin-pagliuca-6836b7237/", "instagram": "https://www.instagram.com/agustin.pagliuca/" }
-        },
-        {
           "name": "Matias Ignacio Cid Montes",
           "role": "QA Tester",
           "avatar": "/team/matias-cid.png",
           "social": { "linkedin": "#", "instagram": "#" }
+        },
+        {
+          "name": "Agustín Pagliuca",
+          "role": "Programador Fullstack · Desarrollador Web",
+          "avatar": "/team/agustin-pagliuca.jpeg",
+          "social": { "linkedin": "https://www.linkedin.com/in/agustin-pagliuca-6836b7237/", "instagram": "https://www.instagram.com/agustin.pagliuca/" }
         }
       ]
     }
