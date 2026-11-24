@@ -1,5 +1,9 @@
 import { Logo } from "./Logo";
-import { InstagramIcon, DiscordIcon, GamepadIcon } from "@/components/icons";
+import {
+  InstagramLogoIcon,
+  DiscordLogoIcon,
+  GameControllerIcon,
+} from "@phosphor-icons/react/ssr";
 import { EXTERNAL_LINKS } from "@/lib/constants";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/dictionaries";
@@ -17,13 +21,13 @@ export function Footer({
       <Logo size="sm" href={`/${locale}`} />
       <div className={styles.social}>
         <a href={EXTERNAL_LINKS.instagram} aria-label="Instagram" target="_blank" rel="noreferrer">
-          <InstagramIcon />
+          <InstagramLogoIcon />
         </a>
         <a href={EXTERNAL_LINKS.discord} aria-label="Discord" target="_blank" rel="noreferrer">
-          <DiscordIcon />
+          <DiscordLogoIcon />
         </a>
         <a href={EXTERNAL_LINKS.vetusRexItch} aria-label="itch.io" target="_blank" rel="noreferrer">
-          <GamepadIcon />
+          <GameControllerIcon />
         </a>
       </div>
       <p className={styles.madeIn}>{dict.footer.madeIn}</p>

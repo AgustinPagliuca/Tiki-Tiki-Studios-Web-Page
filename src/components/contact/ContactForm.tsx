@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import { LockIcon, SendIcon } from "@/components/icons";
+import { LockSimpleIcon, PaperPlaneTiltIcon } from "@phosphor-icons/react/ssr";
 import type { Dictionary } from "@/i18n/dictionaries";
 import styles from "./ContactForm.module.css";
 
@@ -58,13 +58,13 @@ export function ContactForm({ labels }: { labels: Dictionary["contact"]["form"] 
       >
         <span>
           {status === "sending" ? labels.sending : labels.submit}
-          <SendIcon />
+          <PaperPlaneTiltIcon />
         </span>
       </button>
 
       {configured ? (
         <p className={styles.note}>
-          <LockIcon /> {labels.secure}
+          <LockSimpleIcon /> {labels.secure}
         </p>
       ) : (
         <p className={styles.note}>{labels.notConfigured}</p>

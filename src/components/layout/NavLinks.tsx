@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { MenuIcon, XIcon } from "@/components/icons";
+import { ListIcon, XIcon } from "@phosphor-icons/react/ssr";
 import styles from "./Header.module.css";
 
 export type NavLink = { href: string; label: string };
@@ -26,7 +26,7 @@ export function NavLinks({ items }: { items: NavLink[] }) {
         aria-expanded={open}
         onClick={() => setOpen((value) => !value)}
       >
-        {open ? <XIcon /> : <MenuIcon />}
+        {open ? <XIcon /> : <ListIcon />}
       </button>
       <nav className={`${styles.menu} ${open ? styles.menuOpen : ""}`}>
         {items.map((item) => {

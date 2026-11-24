@@ -14,10 +14,10 @@
   },
   "home": {
     "kicker": "Indie studio · Argentina",
-    "titleLead": "We craft",
-    "titleHighlight": "worlds",
-    "titleTail": "to get lost in",
-    "subtitle": "RPG, adventure and open worlds with their own identity. Handcrafted, with the soul of older games and today's technology.",
+    "titleLead": "We make the",
+    "titleHighlight": "games",
+    "titleTail": "we love to play",
+    "subtitle": "We're an independent studio from Argentina. We've been playing since we were kids, and now we put that same excitement into making our own games.",
     "ctaGames": "See games",
     "ctaStudio": "The studio",
     "featured": {
@@ -32,20 +32,20 @@
   "about": {
     "kicker": "The studio",
     "title": "Who we are",
-    "lead": "Tiki-Tiki Studios was born from the idea of making the games we wanted to play: open worlds with soul, stories that matter and a style of our own. We're showing up at EVA Argentina to share what we're working on.",
-    "valuesTitle": "What drives us",
+    "lead": "At Tiki-Tiki Studios we've been playing video games all our lives, and at some point we wanted to start making our own. We can tell when a game has been made with care, and that's how we approach every project.",
+    "valuesTitle": "How we work",
     "values": [
       {
-        "title": "Stories that matter",
-        "text": "Narrative you care about, not filler between quests."
+        "title": "We're players",
+        "text": "We play a bit of everything and always have. A lot of what we design comes from there."
       },
       {
-        "title": "Open worlds",
-        "text": "Places to explore at your own pace, full of secrets."
+        "title": "Made with care",
+        "text": "We take time over the details that make a game enjoyable to play."
       },
       {
-        "title": "Handcrafted",
-        "text": "Artisanal identity, from the logo to the last icon."
+        "title": "Our own ideas",
+        "text": "Every project starts from an idea that excites us, whatever the genre."
       }
     ],
     "teamTitle": "The team",
@@ -59,7 +59,7 @@
         },
         {
           "name": "Nahuel Bergamo",
-          "role": "Backend Programmer · Server",
+          "role": "Backend Programmer · Game Design",
           "avatar": "/team/nahuel-bergamo.png",
           "social": { "linkedin": "#", "instagram": "#" }
         },
@@ -68,6 +68,12 @@
           "role": "Animation · Concept/3D Artist",
           "avatar": "/team/esteban-la-roza.png",
           "social": { "linkedin": "#", "instagram": "#" }
+        },
+        {
+          "name": "Tomás Giannobi",
+          "role": "Game Design · Gameplay Programming",
+          "avatar": "/team/tomas-giannobi.webp",
+          "social": { "linkedin": "https://www.linkedin.com/in/tomas-freue/", "instagram": "https://www.instagram.com/tomasgiannobi/" }
         },
         {
           "name": "Simón Pardo",
@@ -119,12 +125,11 @@
     },
     "other": {
       "title": "Other ways",
-      "discord": "Discord community",
-      "eva": "Find us at EVA Argentina"
+      "discord": "Discord community"
     }
   },
   "footer": {
-    "madeIn": "Made in Argentina · EVA"
+    "madeIn": "Made in Argentina"
   },
   "language": {
     "label": "Language",

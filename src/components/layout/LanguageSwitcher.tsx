@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import { locales, type Locale } from "@/i18n/config";
-import { ChevronDownIcon } from "@/components/icons";
+import { CaretDownIcon } from "@phosphor-icons/react/ssr";
 import styles from "./LanguageSwitcher.module.css";
 
 const FLAG: Record<Locale, string> = { es: styles.ar, en: styles.us };
@@ -51,7 +51,7 @@ export function LanguageSwitcher({ locale }: { locale: Locale }) {
         aria-label={LABEL[locale]}
       >
         <span className={`${styles.flag} ${FLAG[locale]}`} />
-        <ChevronDownIcon
+        <CaretDownIcon
           className={`${styles.chevron} ${open ? styles.chevronOpen : ""}`}
         />
       </button>

@@ -1,5 +1,5 @@
 import type { Dictionary } from "@/i18n/dictionaries";
-import { LinkedInIcon, InstagramIcon } from "@/components/icons";
+import { LinkedinLogoIcon, InstagramLogoIcon } from "@phosphor-icons/react/ssr";
 import styles from "./Team.module.css";
 
 export function Team({
@@ -22,10 +22,10 @@ export function Team({
             </div>
             <div className={styles.social}>
               <a href={member.social.linkedin} aria-label="LinkedIn" target="_blank" rel="noreferrer">
-                <LinkedInIcon />
+                <LinkedinLogoIcon />
               </a>
               <a href={member.social.instagram} aria-label="Instagram" target="_blank" rel="noreferrer">
-                <InstagramIcon />
+                <InstagramLogoIcon />
               </a>
             </div>
           </div>

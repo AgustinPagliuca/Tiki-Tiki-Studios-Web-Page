@@ -42,19 +42,3 @@
 .list a:hover {
   color: var(--green);
 }
-
-.eva {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 22px;
-  padding: 14px 16px;
-  background: rgba(126, 217, 87, 0.12);
-  border: 1px solid var(--line);
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 13px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--green);
-}

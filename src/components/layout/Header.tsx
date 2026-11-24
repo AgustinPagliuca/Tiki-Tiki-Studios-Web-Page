@@ -1,7 +1,11 @@
 import { Logo } from "./Logo";
 import { NavLinks, type NavLink } from "./NavLinks";
 import { LanguageSwitcher } from "./LanguageSwitcher";
-import { InstagramIcon, DiscordIcon, MailIcon } from "@/components/icons";
+import {
+  InstagramLogoIcon,
+  DiscordLogoIcon,
+  EnvelopeSimpleIcon,
+} from "@phosphor-icons/react/ssr";
 import { EXTERNAL_LINKS, NAV_ITEMS, STUDIO } from "@/lib/constants";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/dictionaries";
@@ -28,13 +32,13 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
         </p>
         <div className={styles.social}>
           <a href={EXTERNAL_LINKS.instagram} aria-label="Instagram" target="_blank" rel="noreferrer">
-            <InstagramIcon />
+            <InstagramLogoIcon />
           </a>
           <a href={EXTERNAL_LINKS.discord} aria-label="Discord" target="_blank" rel="noreferrer">
-            <DiscordIcon />
+            <DiscordLogoIcon />
           </a>
           <a href={`mailto:${STUDIO.email}`} className={styles.mail}>
-            <MailIcon />
+            <EnvelopeSimpleIcon />
             {STUDIO.email}
           </a>
         </div>

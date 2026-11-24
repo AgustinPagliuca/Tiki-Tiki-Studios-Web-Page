@@ -26,7 +26,7 @@ const caveat = Caveat({
 export const metadata: Metadata = {
   title: "Tiki-Tiki Studios",
   description:
-    "Estudio de videojuegos independiente argentino. Rol, aventura y mundos abiertos con identidad propia.",
+    "Estudio independiente de videojuegos de Argentina.",
 };
 
 export default async function RootLayout({

@@ -14,10 +14,10 @@
   },
   "home": {
     "kicker": "Estudio indie · Argentina",
-    "titleLead": "Creamos",
-    "titleHighlight": "mundos",
-    "titleTail": "para perderse jugando",
-    "subtitle": "Rol, aventura y mundos abiertos con identidad propia. Hechos a mano, con la sensibilidad de los juegos de antes y la tecnología de ahora.",
+    "titleLead": "Hacemos los",
+    "titleHighlight": "juegos",
+    "titleTail": "que nos gusta jugar",
+    "subtitle": "Somos un estudio independiente de Argentina. Jugamos desde chicos y ahora le ponemos ese mismo entusiasmo a hacer nuestros propios juegos.",
     "ctaGames": "Ver juegos",
     "ctaStudio": "El estudio",
     "featured": {
@@ -32,20 +32,20 @@
   "about": {
     "kicker": "El estudio",
     "title": "Quiénes somos",
-    "lead": "Tiki-Tiki Studios nació de la idea de hacer los juegos que queríamos jugar: mundos abiertos con alma, historias que pesan y un estilo propio. Nos presentamos en la EVA Argentina para mostrar en qué andamos.",
-    "valuesTitle": "Lo que nos mueve",
+    "lead": "En Tiki-Tiki Studios jugamos videojuegos toda la vida, y en algún momento quisimos empezar a hacer los nuestros. Sabemos cómo se nota cuando un juego está hecho con cariño, y así trabajamos en cada proyecto.",
+    "valuesTitle": "Cómo trabajamos",
     "values": [
       {
-        "title": "Narrativa con peso",
-        "text": "Historias que te importan, no relleno entre misiones."
+        "title": "Somos jugadores",
+        "text": "Jugamos de todo y desde siempre. Mucho de lo que diseñamos sale de ahí."
       },
       {
-        "title": "Mundos abiertos",
-        "text": "Lugares para explorar a tu ritmo, llenos de secretos."
+        "title": "Hecho con cariño",
+        "text": "Le dedicamos tiempo a los detalles que hacen que un juego sea lindo de jugar."
       },
       {
-        "title": "Hecho a mano",
-        "text": "Identidad artesanal, del logo al último ícono."
+        "title": "Ideas propias",
+        "text": "Cada proyecto arranca de una idea que nos entusiasma, sea del género que sea."
       }
     ],
     "teamTitle": "El equipo",
@@ -59,7 +59,7 @@
         },
         {
           "name": "Nahuel Bergamo",
-          "role": "Programador Backend · Servidor",
+          "role": "Programador Backend · Diseño de Juego",
           "avatar": "/team/nahuel-bergamo.png",
           "social": { "linkedin": "#", "instagram": "#" }
         },
@@ -68,6 +68,12 @@
           "role": "Animaciones · Artista conceptual/3D",
           "avatar": "/team/esteban-la-roza.png",
           "social": { "linkedin": "#", "instagram": "#" }
+        },
+        {
+          "name": "Tomás Giannobi",
+          "role": "Diseño de Juego · Programación Gameplay",
+          "avatar": "/team/tomas-giannobi.webp",
+          "social": { "linkedin": "https://www.linkedin.com/in/tomas-freue/", "instagram": "https://www.instagram.com/tomasgiannobi/" }
         },
         {
           "name": "Simón Pardo",
@@ -119,12 +125,11 @@
     },
     "other": {
       "title": "Otras vías",
-      "discord": "Comunidad en Discord",
-      "eva": "Nos ves en la EVA Argentina"
+      "discord": "Comunidad en Discord"
     }
   },
   "footer": {
-    "madeIn": "Hecho en Argentina · EVA"
+    "madeIn": "Hecho en Argentina"
   },
   "language": {
     "label": "Idioma",

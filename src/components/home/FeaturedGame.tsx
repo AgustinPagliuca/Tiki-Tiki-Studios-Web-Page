@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { motion, useReducedMotion } from "motion/react";
 import { Button } from "@/components/ui/Button";
-import { ArrowUpRightIcon } from "@/components/icons";
+import { ArrowUpRightIcon } from "@phosphor-icons/react/ssr";
 import { EXTERNAL_LINKS } from "@/lib/constants";
 import type { Dictionary } from "@/i18n/dictionaries";
 import styles from "./FeaturedGame.module.css";
